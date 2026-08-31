@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <radialGradient id="sky" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#28135e"/><stop offset=".38" stop-color="#100d37"/><stop offset="1" stop-color="#020617"/></radialGradient>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#8c591d"/><stop offset=".5" stop-color="#ffe7a0"/><stop offset="1" stop-color="#7d4b18"/></linearGradient>
+  <radialGradient id="vio" cx="50%" cy="50%" r="50%"><stop stop-color="#c4a5ff"/><stop offset=".35" stop-color="#7848ff"/><stop offset="1" stop-color="#31136e"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+  <pattern id="stars" width="120" height="120" patternUnits="userSpaceOnUse"><circle cx="18" cy="30" r="1.5" fill="#fff" opacity=".7"/><circle cx="89" cy="84" r="1" fill="#ae8cff" opacity=".8"/><circle cx="52" cy="109" r="1.2" fill="#ffe6a3" opacity=".6"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/><rect width="1600" height="1000" fill="url(#stars)" opacity=".8"/>
+<ellipse cx="800" cy="620" rx="420" ry="170" fill="#5d2ed7" opacity=".12" filter="url(#blur)"/>
+<g stroke="url(#g)" fill="none" opacity=".9">
+  <path d="M0 80H270L340 150V850L270 920H0" stroke-width="5"/>
+  <path d="M1600 80H1330L1260 150V850L1330 920H1600" stroke-width="5"/>
+  <path d="M72 0V160M1528 0V160M72 1000V840M1528 1000V840" stroke-width="2" opacity=".45"/>
+</g>
+<g stroke="#b78cff" stroke-width="2" fill="none" opacity=".5">
+  <path d="M150 190l85 45 62-82 98 51 68-76"/><path d="M1130 190l82 54 69-91 98 55 71-83"/>
+</g>
+<g fill="#d9c8ff"><circle cx="150" cy="190" r="4"/><circle cx="235" cy="235" r="4"/><circle cx="297" cy="153" r="4"/><circle cx="395" cy="204" r="4"/><circle cx="463" cy="128" r="4"/><circle cx="1130" cy="190" r="4"/><circle cx="1212" cy="244" r="4"/><circle cx="1281" cy="153" r="4"/><circle cx="1379" cy="208" r="4"/><circle cx="1450" cy="125" r="4"/></g>
+<g transform="translate(800 430)">
+  <circle r="190" fill="#07091f" stroke="url(#g)" stroke-width="4"/>
+  <circle r="160" fill="none" stroke="#c08dff" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M-30-135c-78 31-111 124-70 198 37 67 123 91 190 54-61 9-119-31-134-91-14-58 11-116 64-146-16-5-33-8-50-5z" fill="url(#g)"/>
+  <path d="M18-112 45-52 108-20 45 11 18 77-9 11-72-20-9-52Z" fill="url(#vio)" stroke="#f7dfa0" stroke-width="5"/>
+  <circle cx="18" cy="-20" r="10" fill="#fff" opacity=".65"/>
+</g>
+<g fill="url(#g)"><path d="M800 150l10 22 22 10-22 10-10 22-10-22-22-10 22-10z"/><path d="M610 540l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/><path d="M990 540l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/></g>
+<path d="M640 760h320" stroke="url(#g)" stroke-width="2" opacity=".5"/>
+<path d="M790 0h20v1000h-20z" fill="#020617" opacity=".48"/>
+</svg>

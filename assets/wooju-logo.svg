@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="t d">
+<title id="t">우주네 로고</title><desc id="d">금빛 초승달과 보랏빛 별 보석으로 만든 우주네 문장</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="65%"><stop offset="0" stop-color="#251352"/><stop offset=".55" stop-color="#0d102d"/><stop offset="1" stop-color="#050817"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0ba"/><stop offset=".42" stop-color="#e5b65b"/><stop offset="1" stop-color="#8d5a18"/></linearGradient>
+  <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9d9ff"/><stop offset=".34" stop-color="#9b6cff"/><stop offset=".72" stop-color="#5c29c8"/><stop offset="1" stop-color="#2b126a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="210" cy="210" r="190" fill="url(#bg)" stroke="url(#gold)" stroke-width="4"/>
+<circle cx="210" cy="210" r="165" fill="none" stroke="#e8bb61" stroke-opacity=".55" stroke-width="2"/>
+<g fill="#d7b061" opacity=".8"><circle cx="96" cy="94" r="3"/><circle cx="324" cy="110" r="2.5"/><circle cx="338" cy="270" r="3"/><circle cx="112" cy="305" r="2.2"/><circle cx="283" cy="74" r="2"/></g>
+<path d="M171 92c-58 19-92 79-75 139 18 65 88 101 151 75 25-10 46-29 59-53-18 14-41 23-66 23-62 0-112-50-112-112 0-28 10-53 27-72 5-6 11-11 16-15z" fill="url(#gold)" stroke="#fff0bd" stroke-opacity=".6" stroke-width="2"/>
+<path d="M177 111c-35 23-55 64-47 108 10 54 60 92 114 87-44-4-80-39-86-84-7-47 18-91 59-110-14-4-27-4-40-1z" fill="#0b0d28" opacity=".95"/>
+<g transform="translate(229 194)" filter="url(#glow)">
+  <path d="M0-76 22-29 68-6 22 17 0 66-22 17-68-6-22-29Z" fill="url(#gem)" stroke="#f2d98e" stroke-width="5"/>
+  <path d="M0-76 0 66M-68-6H68M-22-29 22 17M22-29-22 17" stroke="#f5e4bc" stroke-opacity=".78" stroke-width="2"/>
+  <circle cx="0" cy="-6" r="9" fill="#fff5ff" opacity=".8"/>
+</g>
+<g fill="url(#gold)"><path d="M330 130l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/><path d="M91 248l5 11 11 5-11 5-5 11-5-11-11-5 11-5z"/><path d="M284 322l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+<text x="210" y="369" text-anchor="middle" fill="#f4d994" font-family="Georgia,serif" font-size="34" letter-spacing="8">WOOJU</text>
+</svg>
