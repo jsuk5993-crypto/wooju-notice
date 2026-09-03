@@ -9,5 +9,5 @@
 - 우주네 우주/별자리/초승달 콘셉트 입장 화면
 - 신입 가입 절차 / 이용수칙 / 게임 이용방법 / 외출 / 관리자 / 마무리 안내
 - 카카오톡 구인방: https://open.kakao.com/o/gxg5MjFh (비밀번호 1107)
-- 디스코드: https://discord.gg/xjbrRv7y5
+- 디스코드: https://discord.gg/sddT4wZCD
 - 체크박스 없는 스크롤형 공지
